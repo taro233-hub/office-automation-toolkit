@@ -1,0 +1,8 @@
+python-docx>=1.1
+openpyxl>=3.1
+pymupdf>=1.24
+Pillow>=10.0
+
+# 仅 02-ledger-ocr-transcriber / 03-supplier-intake-verifier 的 OCR 模式需要；
+# 02 的 --mock 模式与 01 完全不依赖以下两包
+paddleocr>=3.0

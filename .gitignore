@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 各工具运行产物；sample/ 是仓库附带的虚构演示数据
+01-weekly-bulletin-generator/output/
+02-ledger-ocr-transcriber/output/
+03-supplier-intake-verifier/output/
